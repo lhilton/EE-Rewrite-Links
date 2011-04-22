@@ -2,9 +2,9 @@ Attempts to rewrite HTML links to set target="_blank" for any link that is outsi
 
 Example:
 ----------------
-<code>&#123;exp:rewrite_links&#125;
-&#123;some_html_field&#125;
-&#123;/exp:rewrite_links&#1<code>25;</code>
+{exp:rewrite_links}
+{some_html_field}
+{/exp:rewrite_links}
 
 Result:
 ----------------
