@@ -1,0 +1,18 @@
+Attempts to rewrite HTML links to set target="_blank" for any link that is outside the configured site_url value.
+
+Example:
+----------------
+<code>&#123;exp:rewrite_links&#125;
+&#123;some_html_field&#125;
+&#123;/exp:rewrite_links&#1<code>25;</code>
+
+Result:
+----------------
+<code><a href="http://somexternaldomain.com/</code>somepath">Some linked text</a></code>
+Becomes
+<code><a href="http://somexternaldomain.com/somepath" target="_blank">Some linked text</a></code>
+----------------
+CHANGELOG:
+
+1.0
+* 1st version
