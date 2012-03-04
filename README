@@ -1,3 +1,13 @@
+**** THIS CODE IS NO LONGER SUPPORTED ****
+
+This method of handling link targets proved to be a bit of a dead-end for me.  I would suggest using better content valdiation on input along with some Javascript (I like jQuery) to handle target setting.  For example, see this:
+
+http://www.leezilla.net/post/12080289777/the-jquery-the-link-and-the-target
+
+
+
+***************************************************************
+
 Attempts to rewrite HTML links to set target="_blank" for any link that is outside the configured site_url value.
 
 Example:
